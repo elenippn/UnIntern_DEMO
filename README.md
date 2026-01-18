@@ -1,4 +1,4 @@
-# UnIntern (DEMO) — Monorepo (Backend + Frontend)
+# UnIntern (DEMO) —  (Backend + Frontend)
 
 ## Περιγραφή
 
