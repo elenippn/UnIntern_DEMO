@@ -141,6 +141,37 @@ flutter run
 
 ---
 
+## APK Release (Android)
+
+Η εφαρμογή μπορεί να παραδοθεί και ως **release APK**.
+
+Η δημιουργία APK απαιτεί Android toolchain (Android SDK / build-tools) και σωστό setup στο Flutter.
+Σε περιβάλλον **macOS** είναι εφικτό να παραχθεί APK, αρκεί να έχει εγκατασταθεί το Android Studio και να έχουν ρυθμιστεί σωστά τα paths.
+
+Από τον φάκελο του Flutter project:
+
+```powershell
+cd C:\Users\<TO_ONOMA_SOU>\Documents\UnIntern_DEMO\frontend
+flutter clean
+flutter pub get
+flutter build apk --release
+```
+
+Το παραγόμενο αρχείο βρίσκεται συνήθως στο:
+
+```
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+---
+
+## Backend hosting και καθυστέρηση απόκρισης (Render)
+
+Το backend είναι φιλοξενούμενο στο Render με το δωρεάν (free) πακέτο.
+Στο free tier το Render μπορεί να κάνει **cold start** όταν η υπηρεσία μείνει ανενεργή, με αποτέλεσμα η **πρώτη** κλήση στο API να αργεί (μερικά δευτερόλεπτα) μέχρι να «ξυπνήσει» ο server.
+
+---
+
 ## API Base URL (Frontend ↔ Backend)
 
 Το frontend χρησιμοποιεί by default:
