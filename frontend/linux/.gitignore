@@ -1,0 +1,6 @@
+flutter/ephemeral
+# Flutter generated files
+**/flutter/generated_*
+macos/Flutter/GeneratedPluginRegistrant.swift
+ios/Flutter/GeneratedPluginRegistrant.m
+linux/flutter/ephemeral
