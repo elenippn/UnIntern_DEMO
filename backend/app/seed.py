@@ -341,6 +341,16 @@ def main():
                 "website": "https://acme.example",
             },
             {
+                "username": "lextech_solutions",
+                "email": "hr@lextech.example",
+                "name": "LexTech",
+                "surname": "Solutions",
+                "company_name": "LexTech Solutions",
+                "industry": "Software",
+                "description": "Building B2B products and internal tools. Hiring interns for fullstack/mobile.",
+                "website": "https://lextech.example",
+            },
+            {
                 "username": "green_energy",
                 "email": "jobs@greenenergy.com",
                 "name": "Green",
@@ -1123,6 +1133,7 @@ def main():
         print("Seed completed successfully.")
         print("Demo logins:")
         print("Company: acme_hr / pass1234")
+        print("Company: lextech_solutions / pass1234")
         print("Company: green_energy / pass1234")
         print("Company: medix_talent / pass1234")
         print("Company: finwave_jobs / pass1234")

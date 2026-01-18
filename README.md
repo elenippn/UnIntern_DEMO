@@ -190,10 +190,41 @@ flutter run -d windows --dart-define=API_BASE_URL=http://127.0.0.1:8000
 
 ## Δοκιμαστικοί λογαριασμοί
 
-Μετά το seed, μπορείς να συνδεθείς ενδεικτικά με:
+Μετά το seed, μπορείς να συνδεθείς με τους παρακάτω dummy users.
 
-- Student: `eleni` / `pass1234`
-- Company: `techcorp` / `pass1234`
+Όλοι οι παρακάτω λογαριασμοί έχουν password: `pass1234`.
+
+Ενδεικτικοί χρήστες:
+
+- Student: `kostas`
+- Company: `lextech_solutions`
+
+### Companies
+
+- `acme_hr`
+- `lextech_solutions`
+- `green_energy`
+- `medix_talent`
+- `finwave_jobs`
+- `logi_chain`
+- `aero_ai`
+- `campus_cafe`
+- `blue_marine`
+- `agrobyte`
+- `civic_soft`
+
+### Students
+
+- `eleni`
+- `nikos`
+- `maria`
+- `giorgos`
+- `sofia`
+- `kostas`
+- `anna`
+- `dimitris`
+- `irene`
+- `petros`
 
 ---
 
